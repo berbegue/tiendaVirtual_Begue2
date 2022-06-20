@@ -33,7 +33,7 @@ nav ul{
 /*condiciones particulares de cada menu*/
 nav ul li {
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 0.5rem;
 }
 nav img{
@@ -64,36 +64,18 @@ nav a {
     color: rgb(41, 41, 41);
 }
 .form-control{
-    width: 6rem;
+    width: 10rem;
 }
+
 /*primera seccion main*/
-.promociones{
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 2fr 1fr 2fr;
-    grid-template-areas: "titulo titulo titulo"
-                         "izq promo der";
-    align-items: center;
-}
 h1{
     text-transform: uppercase;
     color:rgb(209, 209, 170) ;
     grid-area: titulo;
     text-align: center;
 }
-
-#b1{
-    grid-area: izq;
-    justify-self: end;
-
-}
-#b2{
-    grid-area: der;
-    justify-self: start;
-}
-.promo{
-    grid-area: promo;
-    justify-self: center;
+#carouselExampleIndicators{
+    width: 700px;
 }
 /*segunda seccion main*/
 .subMenu{
